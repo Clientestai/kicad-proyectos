@@ -52,7 +52,7 @@ U 1 1 6067730E
 P 6850 3050
 F 0 "S1" H 6903 3050 50  0000 L CNN
 F 1 "CircuitBreaker_1P" H 6902 3005 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 6850 3050 50  0001 C CNN
+F 2 "Connector_Phoenix_MKDS:PhoenixContact_MKDS_1,5_2-1727010-1x02_P3.50mm" H 6850 3050 50  0001 C CNN
 F 3 "~" H 6850 3050 50  0001 C CNN
 	1    6850 3050
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 60677E4C
 P 7300 3050
 F 0 "S2" H 7353 3050 50  0000 L CNN
 F 1 "CircuitBreaker_1P" H 7352 3005 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7300 3050 50  0001 C CNN
+F 2 "Connector_Phoenix_MKDS:PhoenixContact_MKDS_1,5_2-1727010-1x02_P3.50mm" H 7300 3050 50  0001 C CNN
 F 3 "~" H 7300 3050 50  0001 C CNN
 	1    7300 3050
 	1    0    0    -1  
@@ -74,7 +74,7 @@ U 1 1 6067855D
 P 7700 3000
 F 0 "P1" V 7700 3148 50  0000 L CNN
 F 1 "SW_Push" V 7745 3148 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7700 3200 50  0001 C CNN
+F 2 "Connector_Phoenix_MKDS:PhoenixContact_MKDS_1,5_2-1727010-1x02_P3.50mm" H 7700 3200 50  0001 C CNN
 F 3 "~" H 7700 3200 50  0001 C CNN
 	1    7700 3000
 	0    1    1    0   
