@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Control probador motores pap"
-Date "2021-04-02"
-Rev "1.0"
+Date "2021-04-25"
+Rev "3.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -215,7 +215,7 @@ $EndComp
 Wire Wire Line
 	6150 3200 6150 3050
 Wire Wire Line
-	6150 2550 6850 2550
+	6150 2550 6350 2550
 Wire Wire Line
 	7700 2800 7700 2550
 Connection ~ 7700 2550
@@ -263,7 +263,7 @@ $EndComp
 Wire Wire Line
 	8450 3700 7750 3700
 Wire Wire Line
-	7750 3700 7750 4700
+	7750 3700 7750 4400
 $Comp
 L power:GND #PWR0104
 U 1 1 6068E68B
@@ -324,4 +324,38 @@ Wire Wire Line
 Connection ~ 5900 2550
 Wire Wire Line
 	5900 2550 5600 2550
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 606AF1B0
+P 6350 2400
+F 0 "#FLG0101" H 6350 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 6350 2573 50  0000 C CNN
+F 2 "" H 6350 2400 50  0001 C CNN
+F 3 "~" H 6350 2400 50  0001 C CNN
+	1    6350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 606AF931
+P 7200 4200
+F 0 "#FLG0102" H 7200 4275 50  0001 C CNN
+F 1 "PWR_FLAG" H 7200 4373 50  0000 C CNN
+F 2 "" H 7200 4200 50  0001 C CNN
+F 3 "~" H 7200 4200 50  0001 C CNN
+	1    7200 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4200 7200 4400
+Wire Wire Line
+	7200 4400 7750 4400
+Connection ~ 7750 4400
+Wire Wire Line
+	7750 4400 7750 4700
+Wire Wire Line
+	6350 2400 6350 2550
+Connection ~ 6350 2550
+Wire Wire Line
+	6350 2550 6850 2550
 $EndSCHEMATC

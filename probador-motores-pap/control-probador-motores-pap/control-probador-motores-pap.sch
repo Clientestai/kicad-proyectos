@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Control probador motores pap"
-Date "2021-04-02"
-Rev "1.0"
+Date "2021-04-25"
+Rev "2.0"
 Comp ""
 Comment1 ""
 Comment2 ""
